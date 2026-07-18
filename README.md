@@ -1,5 +1,5 @@
 > ⚠️ **Generated mirror — do not edit `Sources/`, `Tests/`, or `Package.swift` here.**
-> They are rsynced from [`screenpipe/screenpipe` → `ee/sdk/`](https://github.com/screenpipe/screenpipe/tree/main/ee/sdk) on every SDK release (`swift-mirror` job in `sdk-release.yml`) and any local change is overwritten. Develop the Swift SDK in the monorepo; this repo only exists so Swift Package Manager can consume the package from a repo root.
+> They are rsynced from [`screenpipe/screenpipe` → `packages/sdk/`](https://github.com/screenpipe/screenpipe/tree/main/packages/sdk) on every SDK release (`swift-mirror` job in `sdk-release.yml`) and any local change is overwritten. Develop the Swift SDK in the monorepo; this repo only exists so Swift Package Manager can consume the package from a repo root.
 
 // screenpipe — AI that knows everything you've seen, said, or heard
 // https://screenpi.pe
@@ -9,7 +9,7 @@
 Swift Package Manager distribution of the Screenpipe SDK — a screen-recording
 client for macOS apps, powered by Screenpipe's native capture stack.
 
-This repository mirrors `ee/sdk` from
+This repository mirrors `packages/sdk` from
 [screenpipe/screenpipe](https://github.com/screenpipe/screenpipe) so that
 SwiftPM can consume `Package.swift` from a repo root. Source of truth for the
 SDK lives in the monorepo.
